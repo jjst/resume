@@ -4,6 +4,12 @@
   "private": true,
   "description": "JSON Resume powered website",
   "scripts": {
-    "build": "node scripts/build-resume.js"
+    "build": "mkdir -p dist && resumed render --output dist/index.html --theme jsonresume-theme-elegant",
+    "generate-pdf": "node scripts/generate-pdf.js"
+  },
+  "devDependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "playwright": "1.59.1",
+    "resumed": "^6.1.0"
   }
 }

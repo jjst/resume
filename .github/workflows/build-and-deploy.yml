@@ -34,11 +34,11 @@ jobs:
       - name: Build resume website
         run: npm run build
 
-      - name: Install PDF generator
-        run: npm install --no-save playwright@1.59.1
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
 
       - name: Generate PDF
-        run: npx playwright install --with-deps chromium && node scripts/generate-pdf.js
+        run: node scripts/generate-pdf.js
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
