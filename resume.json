@@ -5,7 +5,13 @@
     "label": "Senior Software Engineer",
     "email": "jane.doe@example.com",
     "url": "https://janedoe.dev",
-    "summary": "Experienced software engineer focused on building reliable web platforms and developer tooling."
+    "summary": "Experienced software engineer focused on building reliable web platforms and developer tooling.",
+    "location": {
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": []
   },
   "work": [
     {
