@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jane Doe",
+    "label": "Senior Software Engineer",
+    "email": "jane.doe@example.com",
+    "url": "https://janedoe.dev",
+    "summary": "Experienced software engineer focused on building reliable web platforms and developer tooling."
+  },
+  "work": [
+    {
+      "name": "Acme Corp",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-01",
+      "endDate": "Present",
+      "summary": "Led backend and frontend delivery for critical customer-facing applications.",
+      "highlights": [
+        "Reduced deployment failures by 40% through CI/CD pipeline improvements.",
+        "Designed and launched a self-service reporting portal used by 5,000+ users."
+      ]
+    },
+    {
+      "name": "Globex",
+      "position": "Software Engineer",
+      "startDate": "2017-06",
+      "endDate": "2020-12",
+      "summary": "Built APIs and internal tools supporting logistics and operations workflows.",
+      "highlights": [
+        "Implemented API rate-limiting and monitoring strategy.",
+        "Improved integration test coverage for key services."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2013",
+      "endDate": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["JavaScript", "TypeScript", "Python", "SQL"]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "keywords": ["Node.js", "React", "Docker", "GitHub Actions"]
+    }
+  ]
+}
