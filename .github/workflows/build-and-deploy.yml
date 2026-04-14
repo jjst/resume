@@ -36,11 +36,8 @@ jobs:
       - name: Build resume website
         run: npm run build
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
-
       - name: Generate PDF
-        run: node scripts/generate-pdf.js
+        run: npm run generate-pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
