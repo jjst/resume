@@ -1,59 +1,149 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Jane Doe",
-    "label": "Senior Software Engineer",
-    "email": "jane.doe@example.com",
-    "url": "https://janedoe.dev",
-    "summary": "Experienced software engineer focused on building reliable web platforms and developer tooling.",
+    "name": "Jérémie Jost",
+    "label": "Engineering Manager · Backend & Data Engineering",
+    "email": "jeremiejost+job@gmail.com",
+    "summary": "Engineering Manager with 15+ years of software engineering experience, including 9 years at Zalando across individual contributor, tech lead, and management roles. Brings hands-on depth in backend services, cloud infrastructure, and data engineering to a leadership style focused on team clarity, psychological safety, and sustainable delivery. Proven track record of growing engineers, shipping high-stakes initiatives, and raising team engagement well above organisational benchmarks.",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Dublin",
+      "countryCode": "IE",
+      "region": "Ireland"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jeremiej",
+        "url": "https://linkedin.com/in/jeremiej"
+      },
+      {
+        "network": "GitHub",
+        "username": "jjst",
+        "url": "https://github.com/jjst"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Acme Corp",
-      "position": "Senior Software Engineer",
-      "startDate": "2021-01",
-      "endDate": "Present",
-      "summary": "Led backend and frontend delivery for critical customer-facing applications.",
+      "name": "Zalando",
+      "position": "Engineering Manager",
+      "startDate": "2026-01",
+      "summary": "Leading Team Express, a backend & data engineering team of 4, within Zalando's mission-critical e-commerce platform. Full management scope covering people, delivery, architecture, and operational excellence.",
       "highlights": [
-        "Reduced deployment failures by 40% through CI/CD pipeline improvements.",
-        "Designed and launched a self-service reporting portal used by 5,000+ users."
+        "Achieved top-tier scores in company-wide team engagement surveys across both support and value dimensions, consistently above organisational average.",
+        "Led performance and compensation cycles end-to-end, securing merit-based outcomes for high performers through structured calibration.",
+        "Owned the team's architectural roadmap and quality standards, ensuring alignment with company-wide engineering principles.",
+        "Defined Service Level Objectives (SLOs) and oversaw incident response and post-mortem processes to maintain production reliability."
       ]
     },
     {
-      "name": "Globex",
-      "position": "Software Engineer",
-      "startDate": "2017-06",
-      "endDate": "2020-12",
-      "summary": "Built APIs and internal tools supporting logistics and operations workflows.",
+      "name": "Zalando",
+      "position": "Engineering Lead",
+      "startDate": "2024-05",
+      "endDate": "2026-01",
+      "summary": "Bridged technical execution and business strategy, evolving the team from reactive delivery into a proactive, outcome-driven organisation with clear prioritisation and stakeholder visibility.",
       "highlights": [
-        "Implemented API rate-limiting and monitoring strategy.",
-        "Improved integration test coverage for key services."
+        "Led a high-stakes backend pivot across three product workstreams with a mixed team of 6 (3 core, 3 contractors), delivering on time despite 50% capacity reduction in supporting areas.",
+        "Managed end-to-end delivery of a global trend-discovery feature rollout across major fashion capitals, then successfully transitioned ownership to a partner department.",
+        "Introduced a rolling weekly planning framework with explicit WIP limits, eliminating reactive firefighting and giving stakeholders real-time visibility into team priorities.",
+        "Built a self-serve analytics dashboard that removed a recurring engineering bottleneck, enabling product partners to manage configurations independently.",
+        "Ran full-cycle hiring for a Senior Engineer role; defined job specs and interview scorecards, extended a successful offer, and overhauled contractor onboarding."
       ]
+    },
+    {
+      "name": "Zalando",
+      "position": "Senior Software Engineer",
+      "startDate": "2019-07",
+      "endDate": "2024-05",
+      "summary": "Technical anchor for the team, driving reliability, cross-team alignment, and production readiness at scale.",
+      "highlights": [
+        "Coordinated platform-wide risk reviews for Cyber Week (2021 & 2022), identifying and mitigating critical issues across core pillars — zero incidents during the company's highest-traffic events.",
+        "Architected the navigation infrastructure for the personalised browse experience: designed distributed tracing, defined SLO/SLIs, and built load tests that accurately predicted peak traffic behaviour.",
+        "Resolved cross-team data quality issues in a shared data pipeline to unblock A/B test integrity across personalised carousels.",
+        "Mentored an engineer through a structured development plan, resulting in a successful promotion to Senior level."
+      ]
+    },
+    {
+      "name": "Zalando",
+      "position": "Software Engineer",
+      "startDate": "2016-08",
+      "endDate": "2019-07",
+      "highlights": [
+        "Built and maintained datalake-client (Scala) and gdpr-janitor, automating GDPR deletion requests across distributed datastores for three internal teams.",
+        "Improved developer productivity through tooling automation and cross-team code review standards."
+      ]
+    },
+    {
+      "name": "Waratek",
+      "position": "VM Software Engineer",
+      "startDate": "2012-11",
+      "endDate": "2016-04",
+      "highlights": [
+        "Core developer on a multi-tenant Java Virtual Machine; built CLI tooling, static analysis pipelines, and introduced semantic versioning and dependency management."
+      ]
+    },
+    {
+      "name": "Civitec",
+      "position": "R&D Software Engineer",
+      "startDate": "2011-04",
+      "endDate": "2012-08"
+    },
+    {
+      "name": "Voxelia",
+      "position": "Software Engineer",
+      "startDate": "2008-09",
+      "endDate": "2011-02"
     }
   ],
   "education": [
     {
-      "institution": "State University",
+      "institution": "UTBM",
+      "area": "High Performance Algorithmics & Modelling",
+      "studyType": "MSc",
+      "startDate": "2010",
+      "endDate": "2011"
+    },
+    {
+      "institution": "UTBM",
+      "area": "Software Engineering",
+      "studyType": "MEng",
+      "startDate": "2007",
+      "endDate": "2010"
+    },
+    {
+      "institution": "University of Nancy",
       "area": "Computer Science",
-      "studyType": "B.Sc.",
-      "startDate": "2013",
-      "endDate": "2017"
+      "studyType": "DUT",
+      "startDate": "2005",
+      "endDate": "2007"
     }
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": ["JavaScript", "TypeScript", "Python", "SQL"]
+      "name": "Leadership",
+      "keywords": ["People management", "Performance calibration", "Hiring", "Roadmap ownership", "OKRs"]
     },
     {
-      "name": "Frameworks & Tools",
-      "keywords": ["Node.js", "React", "Docker", "GitHub Actions"]
+      "name": "Engineering",
+      "keywords": ["Python", "Scala", "Java", "AWS", "GCP", "Data pipelines", "Backend services"]
+    },
+    {
+      "name": "Observability",
+      "keywords": ["Distributed tracing", "SLO/SLI definition", "Incident response"]
+    },
+    {
+      "name": "Practices",
+      "keywords": ["Lean delivery", "Documentation", "Agentic coding", "Developer productivity"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
     }
   ]
 }
