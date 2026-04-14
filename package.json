@@ -4,12 +4,20 @@
   "private": true,
   "description": "JSON Resume powered website",
   "scripts": {
-    "build": "mkdir -p dist && resumed render --output dist/index.html --theme jsonresume-theme-elegant",
+    "build": "mkdir -p dist && node scripts/bundle-theme.js && node_modules/.bin/resumed render --output dist/index.html --theme $(pwd)/.theme-bundle.js",
     "generate-pdf": "node scripts/generate-pdf.js"
   },
   "devDependencies": {
+    "esbuild": "^0.28.0",
     "jsonresume-theme-elegant": "^1.16.1",
     "playwright": "1.59.1",
     "resumed": "^6.1.0"
+  },
+  "dependencies": {
+    "@resume/core": "npm:@jsonresume/core@^0.1.0",
+    "jsonresume-theme-bold-header-statement": "^1.0.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "styled-components": "^6.4.0"
   }
 }
