@@ -5,12 +5,12 @@
   "description": "JSON Resume powered website",
   "scripts": {
     "build": "mkdir -p dist && node scripts/bundle-theme.js && node_modules/.bin/resumed render --output dist/index.html --theme $(pwd)/.theme-bundle.js",
-    "generate-pdf": "node scripts/generate-pdf.js"
+    "generate-pdf": "node_modules/.bin/resumed export dist/resume.pdf --theme $(pwd)/.theme-bundle.js"
   },
   "devDependencies": {
     "esbuild": "^0.28.0",
     "jsonresume-theme-elegant": "^1.16.1",
-    "playwright": "1.59.1",
+    "puppeteer": "^24.40.0",
     "resumed": "^6.1.0"
   },
   "dependencies": {
