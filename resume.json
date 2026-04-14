@@ -78,21 +78,38 @@
       "position": "VM Software Engineer",
       "startDate": "2012-11",
       "endDate": "2016-04",
+      "summary": "Core engineer on a multi-tenant JVM platform, improving runtime tooling, release reliability, and developer workflow across the VM codebase.",
       "highlights": [
-        "Core developer on a multi-tenant Java Virtual Machine; built CLI tooling, static analysis pipelines, and introduced semantic versioning and dependency management."
+        "Maintained and tested critical JVM backend components, including host-to-guest APIs, serialization, and JMX integration (Java).",
+        "Built and supported CLI tooling for container creation and lifecycle management, improving operability for JVM users (Python, Scala, JMX).",
+        "Improved engineering throughput by extending Mercurial workflows for pull-request handling and by deploying static analysis checks in code review (Python).",
+        "Strengthened release discipline by introducing Ivy-based dependency management, semantic versioning, and shorter fixed release cycles."
       ]
     },
     {
       "name": "Civitec",
       "position": "R&D Software Engineer",
       "startDate": "2011-04",
-      "endDate": "2012-08"
+      "endDate": "2012-08",
+      "summary": "Contributed to Pro-SiVIC sensor simulation releases while helping evolve the product from research prototype toward an industry-ready platform.",
+      "highlights": [
+        "Ported the UI stack from .NET/WinForms to Qt4, modernizing the frontend and improving maintainability.",
+        "Enhanced the simulation core with a reusable property system and generic object serialization to enable richer UI-driven configuration.",
+        "Introduced engineering execution practices including bug tracking, project planning, unit testing, and daily builds.",
+        "Improved team alignment and delivery cadence by instituting recurring status reporting and weekly coordination rituals."
+      ]
     },
     {
       "name": "Voxelia",
       "position": "Software Engineer",
       "startDate": "2008-09",
-      "endDate": "2011-02"
+      "endDate": "2011-02",
+      "summary": "Early engineer across internships and freelance engagements, helping a young startup deliver initial customer-facing simulation and visualization products.",
+      "highlights": [
+        "Led development of a technical demo showcasing urban environment modeling and traffic/pedestrian simulation capabilities (Unity3D, C#).",
+        "Built 3D visualization software for the Belfort-Montbéliard urban area, supporting real-world geographic rendering use cases (C++, Qt, OpenSceneGraph).",
+        "Prototyped a scenario editor and contributed to road traffic simulation components for the in-house simulation platform (C++, Qt, Java)."
+      ]
     }
   ],
   "education": [
