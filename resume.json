@@ -125,7 +125,23 @@
     },
     {
       "name": "Engineering",
-      "keywords": ["Python", "Scala", "Java", "AWS", "GCP", "Data pipelines", "Backend services"]
+      "keywords": [
+        "Python",
+        "Scala",
+        "Java",
+        "AWS",
+        "GCP",
+        "DynamoDB",
+        "CloudFormation",
+        "AWS CDK",
+        "S3",
+        "Data pipelines",
+        "Backend services"
+      ]
+    },
+    {
+      "name": "AI & LLMs",
+      "keywords": ["Claude Code", "GitHub Copilot Agents", "Gemini", "Vertex AI"]
     },
     {
       "name": "Observability",
