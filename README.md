@@ -2,6 +2,10 @@
 
 JSON Resume powered website with a sample `resume.json`.
 
+## Live site
+
+GitHub Pages: https://jjst.github.io/resume/
+
 ## Local build
 
 ```bash
