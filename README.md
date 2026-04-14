@@ -16,6 +16,7 @@ npm run generate-pdf
 
 This generates `dist/index.html`.
 `npm run generate-pdf` first renders `dist/pdf.html` with the `consultant-polished` theme, then exports `dist/resume.pdf`.
+This keeps the website theme unchanged while using a print-optimized consultant style specifically for the PDF artifact.
 
 ## GitHub Actions pipeline
 
