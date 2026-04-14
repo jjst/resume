@@ -6,7 +6,13 @@ const resumePath = path.join(rootDir, 'resume.json');
 const distDir = path.join(rootDir, 'dist');
 const outputPath = path.join(distDir, 'index.html');
 
-const resume = JSON.parse(fs.readFileSync(resumePath, 'utf8'));
+let resume;
+try {
+  resume = JSON.parse(fs.readFileSync(resumePath, 'utf8'));
+} catch (error) {
+  console.error('Failed to parse resume.json. Please fix invalid JSON syntax.');
+  throw error;
+}
 const basics = resume.basics || {};
 const work = Array.isArray(resume.work) ? resume.work : [];
 const education = Array.isArray(resume.education) ? resume.education : [];

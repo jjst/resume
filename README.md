@@ -16,5 +16,5 @@ This generates `dist/index.html`.
 The workflow at `.github/workflows/build-and-deploy.yml`:
 
 1. Builds the resume website from `resume.json`
-2. Generates `dist/resume.pdf`
+2. Generates `dist/resume.pdf` with Playwright
 3. Publishes the `dist/` folder to GitHub Pages
