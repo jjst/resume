@@ -1,7 +1,11 @@
 import esbuild from 'esbuild';
 
+const themeEntry =
+  process.env.THEME_ENTRY ||
+  'node_modules/jsonresume-theme-bold-header-statement/src/index.js';
+
 await esbuild.build({
-  entryPoints: ['node_modules/jsonresume-theme-bold-header-statement/src/index.js'],
+  entryPoints: [themeEntry],
   bundle: true,
   platform: 'node',
   format: 'cjs',
