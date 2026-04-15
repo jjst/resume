@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 
 async function main() {
   const rootDir = path.resolve(__dirname, '..');
-  const htmlPath = path.join(rootDir, 'dist', 'index.html');
+  const htmlPath = path.join(rootDir, 'dist', 'pdf.html');
   const pdfPath = path.join(rootDir, 'dist', 'resume.pdf');
   const browser = await chromium.launch();
 
@@ -13,7 +13,8 @@ async function main() {
     await page.pdf({
       path: pdfPath,
       format: 'A4',
-      printBackground: true
+      printBackground: true,
+      margin: { top: '15mm', bottom: '15mm', left: '15mm', right: '15mm' }
     });
     console.log(`Generated ${pdfPath}`);
   } finally {
@@ -22,7 +23,7 @@ async function main() {
 }
 
 main().catch((error) => {
-  console.error('Failed to generate PDF from dist/index.html');
+  console.error('Failed to generate PDF from dist/pdf.html');
   console.error(error);
   process.exit(1);
 });
