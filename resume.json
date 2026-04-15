@@ -84,8 +84,9 @@
       "summary": "Core engineer on a multi-tenant JVM platform, improving runtime tooling, release reliability, and developer workflow across the VM codebase.",
       "highlights": [
         "Maintained and tested critical JVM backend components, including host-to-guest APIs, serialization, and JMX integration (Java).",
-        "Built and supported CLI tooling for container creation and lifecycle management, improving operability for JVM users (Python, Scala, JMX).",
-        "Improved engineering throughput by extending Mercurial workflows for pull-request handling and by deploying static analysis checks in code review (Python).",
+        "Self-initiated migration of the team's CI from manually managed Jenkins UI jobs to Jenkins Pipelines (infrastructure-as-code), impacting all 15 engineers and enabling maintainable, reviewable CI configuration.",
+        "Self-directed redesign of test execution using Jenkins Pipeline parallelism, reducing end-to-end build and test time from ~2 hours to under 15 minutes.",
+        "Identified and championed a self-initiated CLI rewrite POC: replaced brittle filesystem-based daemon IPC with a JVM-native Scala binary over the existing JMX API extension, materially improving reliability and expanding CLI coverage to the full JMX surface.",
         "Strengthened release discipline by introducing Ivy-based dependency management, semantic versioning, and shorter fixed release cycles."
       ]
     },
