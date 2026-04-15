@@ -13,7 +13,8 @@ async function main() {
     await page.pdf({
       path: pdfPath,
       format: 'A4',
-      printBackground: true
+      printBackground: true,
+      margin: { top: '15mm', bottom: '15mm', left: '15mm', right: '15mm' }
     });
     console.log(`Generated ${pdfPath}`);
   } finally {
