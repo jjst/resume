@@ -30,10 +30,10 @@
       "startDate": "2026-01",
       "summary": "Leading Team Express, a backend & data engineering team of 4, within Zalando's mission-critical e-commerce platform. Full management scope covering people, delivery, architecture, and operational excellence.",
       "highlights": [
-        "Achieved top-tier scores in company-wide team engagement surveys across both support and value dimensions, consistently above organisational average.",
-        "Led performance and compensation cycles end-to-end, securing merit-based outcomes for high performers through structured calibration.",
+        "Defined Service Level Objectives (SLOs) and oversaw incident response and post-mortem processes to maintain production reliability.",
         "Owned the team's architectural roadmap and quality standards, ensuring alignment with company-wide engineering principles.",
-        "Defined Service Level Objectives (SLOs) and oversaw incident response and post-mortem processes to maintain production reliability."
+        "Led performance and compensation cycles end-to-end, securing merit-based outcomes for high performers through structured calibration.",
+        "Achieved top-tier scores in company-wide team engagement surveys across both support and value dimensions, consistently above organisational average."
       ]
     },
     {
@@ -68,14 +68,17 @@
       "position": "Software Engineer",
       "startDate": "2016-08",
       "endDate": "2019-07",
+      "summary": "Early engineer in Zalando's newly established Dublin office, building the social media crawling infrastructure and REST API that surfaced fashion influencer content across the organisation — work that ultimately powered Collabary, Zalando's brand-influencer marketing platform.",
       "highlights": [
-        "Built and maintained datalake-client (Scala) and gdpr-janitor, automating GDPR deletion requests across distributed datastores for three internal teams.",
-        "Improved developer productivity through tooling automation and cross-team code review standards."
+        "Built a social media crawler (Scala, Kafka, Postgres, AWS) indexing thousands of fashion influencers across Instagram and YouTube.",
+        "Designed and shipped a REST API exposing influencer content for internal consumption, becoming a foundational data source for Collabary.",
+        "One of the first engineers to take a live service to production in the newly opened Zalando Dublin office.",
+        "Later pivoted to building a more generic web crawler for competitor price-matching use cases."
       ]
     },
     {
       "name": "Waratek",
-      "position": "VM Software Engineer",
+      "position": "Software Engineer",
       "startDate": "2012-11",
       "endDate": "2016-04",
       "summary": "Core engineer on a multi-tenant JVM platform, improving runtime tooling, release reliability, and developer workflow across the VM codebase.",
@@ -166,7 +169,7 @@
     },
     {
       "name": "Practices",
-      "keywords": ["Lean delivery", "Documentation", "Agentic coding", "Developer productivity"]
+      "keywords": ["Lean delivery", "Documentation", "Developer productivity"]
     }
   ],
   "languages": [
